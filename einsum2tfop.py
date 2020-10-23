@@ -28,7 +28,7 @@ def find_op(einsum_str,inputs,max_solutions=1,time_limit=300,n_samples=1):
       'require_one_input_used': False,
   })
 
-  colab_interface.run_value_search_from_colab(inputs,output,[],"",settings)
+  colab_interface.run_value_search_from_colab(inputs,outputs,[],"",settings)
 
 
 if __name__ == '__main__':
