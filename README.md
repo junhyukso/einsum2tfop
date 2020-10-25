@@ -24,6 +24,7 @@ einsum('aij,ajk->aik', s, t)  # out[a,i,k] = sum_j s[a,i,j] * t[a, j, k]
 - tf-coder
 
 ## Usage
+` einsum2tfop.find_op( einsumstr , [inputs] )`
 ```python
 from einsum2tfop import find_op
 
